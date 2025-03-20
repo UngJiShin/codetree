@@ -7,7 +7,10 @@ int main() {
     int c =30;
 
     cout << a;
-    cout << a;
+    cout << " + ";
+    cout << b;
+    cout << " = ";
+    cout << c;
     // Please write your code here.
     return 0;
 }
