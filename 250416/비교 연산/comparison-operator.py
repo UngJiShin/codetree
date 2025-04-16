@@ -1,27 +1,31 @@
-A, B = input().split()
-#print(A)
-#print(B)
-if A >= B:
-    print(1)
+a, b = map(int,input().split())
+
+if a >= b:
+    print(int(True))
 else:
-    print(0)
-if A > B:
-    print(1)
+    print(int(False))
+
+if a > b:
+    print(int(True))
 else:
-    print(0)
-if A <= B:
-    print(1)
+    print(int(False))
+
+if  a <= b:
+    print(int(True))
 else:
-    print(0)
-if A < B:
-    print(1)
+    print(int(False))
+
+if a < b:
+    print(int(True))
 else:
-    print(0)
-if A == B:
-    print(1)
+    print(int(False))
+
+if a == b:
+    print(int(True))
 else:
-    print(0)
-if A != B:
-    print(1)
+    print(int(False))
+
+if a != b:
+    print(int(True))
 else:
-    print(0)
+    print(int(False))
