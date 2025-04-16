@@ -4,6 +4,5 @@ inp = int(input())
 if inp > 80:
     print("pass")
 else:
-    print(80-inp , end = ' ')
-    print("more score")
+    print("%d more score" %(80-inp))
 
